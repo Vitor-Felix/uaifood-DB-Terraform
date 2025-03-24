@@ -1,2 +1,2 @@
 # uaifood-DB-Terraform
-repositório para sua infra banco de dados gerenciáveis com Terraform.
+repositório para infra de banco de dados do app uaifood, gerenciáveis com Terraform.
