@@ -18,4 +18,8 @@ resource "aws_db_instance" "uaifood_db" {
     Name = "uaifood-db"
   }
 
+  # Terraform não tentará mudar db_name após a criação
+  lifecycle {
+    ignore_changes = [db_name]
+  }
 }

@@ -1,7 +1,7 @@
 variable "db_instance_identifier" {
   type        = string
   description = "ID da instância do RDS"
-  default     = "uaifood-db"
+  default     = "uaifood-db-1"
 }
 
 variable "db_engine" {
