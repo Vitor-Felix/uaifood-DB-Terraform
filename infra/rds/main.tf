@@ -1,9 +1,9 @@
 resource "aws_db_instance" "uaifood_db" {
   allocated_storage       = var.allocated_storage
-  db_instance_class       = var.db_instance_class
+  instance_class          = var.db_instance_class
   engine                  = var.db_engine
   engine_version          = var.db_engine_version
-  instance_identifier     = var.db_instance_identifier
+  identifier              = var.db_instance_identifier
   username                = var.db_username
   password                = var.db_password
   multi_az                = var.multi_az
