@@ -14,7 +14,7 @@ resource "aws_db_instance" "uaifood_db" {
   db_name                = var.db_name  # Alterado para uaifood
   parameter_group_name   = "default.mysql8.0"
 
-  tags = {
+ tags = {
     Name = "uaifood-db"
   }
 

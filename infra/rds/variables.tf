@@ -51,7 +51,6 @@ variable "multi_az" {
   description = "Habilitar Multi-AZ?"
   default     = false
 }
-
 variable "delete_protection" {
   type        = bool
   description = "Habilitar proteção contra exclusão"
