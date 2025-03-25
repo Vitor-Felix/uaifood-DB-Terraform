@@ -8,5 +8,5 @@ terraform {
   }
 }
 provider "aws" {
-  region = "us-east-2"  # Região onde a RDS estará
+  region = "us-east-2"
 }

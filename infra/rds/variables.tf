@@ -25,7 +25,7 @@ variable "db_instance_class" {
 variable "db_name" {
   type        = string
   description = "Nome do banco de dados"
-  default     = "uaifood"  # Alterado para uaifood
+  default     = "uaifood"
 }
 
 variable "db_username" {
