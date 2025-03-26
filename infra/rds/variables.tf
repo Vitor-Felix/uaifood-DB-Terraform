@@ -1,7 +1,7 @@
 variable "db_instance_identifier" {
   type        = string
   description = "ID da instância do RDS"
-  default     = "uaifood-db"
+  default     = "uaifood-db-1"
 }
 
 variable "db_engine" {
@@ -25,7 +25,7 @@ variable "db_instance_class" {
 variable "db_name" {
   type        = string
   description = "Nome do banco de dados"
-  default     = "uaifood"  # Alterado para uaifood
+  default     = "uaifood"
 }
 
 variable "db_username" {
@@ -51,7 +51,6 @@ variable "multi_az" {
   description = "Habilitar Multi-AZ?"
   default     = false
 }
-
 variable "delete_protection" {
   type        = bool
   description = "Habilitar proteção contra exclusão"
